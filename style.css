@@ -262,6 +262,7 @@ p{margin-bottom: 0;}
 
 .shortCut1:hover,.shortCut2:hover,.shortCut3:hover,.shortCut4:hover,.shortCut5:hover,.shortCut6:hover,.shortCut7:hover,.shortCut8:hover,.shortCut9:hover,.shortCut10:hover{
 	background-color: rgba(0, 0, 0, .1);
+	cursor: pointer;
 }
 
 .imagesContainer{
