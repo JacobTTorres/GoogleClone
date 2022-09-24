@@ -337,13 +337,55 @@ p{margin-bottom: 0;}
 	color: rgb(26,115,232)
 }
 
+#amazon, #github,#jsfiddle{
+	width: 35px;
+	height: 35px;
+}
+
+#facebook{
+	height: 30px;
+	width: 50px;
+}
+
+#stack{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+#twitch{
+	width: 25px;
+	height: 25px;
+}
+
+#twitter{
+	width: 60px;
+	height: 60px;
+}
+
+#ps{
+	width: 25px;
+	height: 25px;
+}
+
+#xbox{
+	width:25px;
+	height: 25px;
+}
+
 @media only screen and (max-width:672px) {
+	.mainContent{
+		width: 100vw;
+	}
 	.searchBar{width: 80%;}
 	.shortCut10,.shortCut9{
 		display: none;
 	}
 	.shortCuts{
-		width:80%
+		width:100vw;
+	}
+	.shortCutContainer{
+		width: 100%;
 	}
 }
 
@@ -353,7 +395,7 @@ p{margin-bottom: 0;}
 		display: none;
 	}
 	.shortCuts{
-		width:60%
+		width:100%
 	}
 	#mic{
 		right:0
@@ -363,5 +405,8 @@ p{margin-bottom: 0;}
 	}
 	.customText{
 		display: none;
+	}
+	.textBox{
+		text-size-adjust: 10%;
 	}
 }
